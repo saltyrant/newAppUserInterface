@@ -52,7 +52,7 @@ function Jokes() {
 
   return (
     <SafeAreaView>
-      <Text style={styles.pageTitle}>Joke Box Admin 2.0</Text>
+      <Text style={styles.pageTitle}>Joke Box</Text>
     <View style={styles.container}>
         <TouchableOpacity
           style={styles.button}
