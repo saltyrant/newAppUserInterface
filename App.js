@@ -56,11 +56,6 @@ function Jokes() {
     <View style={styles.container}>
         <TouchableOpacity
           style={styles.button}
-          onPress={handleAddJokeButton}>
-      <Text>Add Joke</Text>
-      </TouchableOpacity>
-        <TouchableOpacity
-          style={styles.button}
           onPress={fetchJoke}>
       <Text>Get Joke</Text>
       </TouchableOpacity>
